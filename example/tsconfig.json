@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-nothing-glyph-module": ["../src/index"],
+      "expo-nothing-glyph-module/*": ["../src/*"]
+    }
+  }
+}
